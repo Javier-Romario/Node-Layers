@@ -1,0 +1,32 @@
+{
+  "name": "nodelayers",
+  "version": "1.0.0",
+  "description": "a html js and css displayer in 3d!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist",
+    "start": "./bin/launch.js"
+  },
+  "bin": {
+    "react-to-sixel": "./bin/launch.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "install": "^0.13.0",
+    "npm": "^6.14.11",
+    "puppeteer": "^5.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-three-fiber": "^5.3.11",
+    "three": "^0.124.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.8",
+    "@babel/core": "^7.12.7",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.7",
+    "@babel/preset-react": "^7.12.7"
+  }
+}
